@@ -8,63 +8,92 @@
 </head>
 <body>
 
-  <header>
-    <nav>
+  <header id="header">
+    <nav id="navbar">
 
-      <!-- MENU FIRST (LEFT SIDE) -->
-      <div class="menu">
-        <p>Home</p>
-        <p>Order in app</p>
-        <p>Veg mode</p>
-        <p>Track your order</p>
-        <p>Cart</p>
-      </div>
+      <ul class="menu">
+        <li><a href="#" class="nav-item">Home</a></li>
+        <li><a href="#" class="nav-item">Order in app</a></li>
+        <li><a href="#" class="nav-item">Veg mode</a></li>
+        <li><a href="#" class="nav-item">Track your order</a></li>
+        <li><a href="#" class="nav-item">Cart</a></li>
+      </ul>
 
-      <!-- LOGO LAST (RIGHT SIDE) -->
-      <div class="logo" style="margin-right: 15px;">
-        <img src="./download.png" alt="Foodo Logo" style="height: 75px; width: 75px;">
+      <div class="logo">
+        <img src="./download.png" alt="Foodo brand logo" class="logo-img">
       </div>
 
     </nav>
   </header>
 
-  <main>
-    <section>
-      <p class="a">Craving something? We'll bring it to you</p>
-      <form>
-        <input type="search" placeholder="Enter your delivery address">
-        <input type="text" placeholder="Enter your PIN code">
-        <button type="button">Check Availability</button>
+  <main id="main">
+    <section id="hero-section">
+
+      <h1 class="a">Craving something? We'll bring it to you</h1>
+
+      <form id="address-form">
+
+        <label for="address-input">Delivery Address</label>
+        <input
+          type="search"
+          id="address-input"
+          name="address"
+          placeholder="Enter your delivery address"
+        >
+
+        <label for="pincode-input">PIN Code</label>
+        <input
+          type="text"
+          id="pincode-input"
+          name="pincode"
+          placeholder="Enter your PIN code"
+        >
+
+        <button type="submit">Check Availability</button>
+
       </form>
+
     </section>
   </main>
 
-  <footer>
+  <section id="cards-section">
     <div class="cards">
+
       <article>
-        <p>Trending today</p>
+        <h3>Trending today</h3>
         <p>Discover what’s hot and happening near you — the meals everyone’s ordering and loving!</p>
-        <img src="./360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg" alt="Trending Food">
+        <img src="./360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg"
+             alt="Popular trending food dishes"
+             class="card-img">
       </article>
 
       <article>
-        <p>Under:199</p>
+        <h3>Under:199</h3>
         <p>Delicious meals that are high on flavor, low on price!</p>
-        <img src="./symbol.png" alt="Under 199">
+        <img src="./symbol.png"
+             alt="Affordable meals under rupees 199"
+             class="card-img">
       </article>
 
       <article>
-        <p>Switch to Foodo+</p>
+        <h3>Switch to Foodo+</h3>
         <p>Exclusive offers, zero delivery fees, and priority service.</p>
-        <img src="./foodoplus.png" alt="Foodo Plus">
+        <img src="./foodoplus.png"
+             alt="Foodo Plus premium membership icon"
+             class="card-img">
       </article>
-    </div>
 
+    </div>
+  </section>
+
+  <section id="about-section">
     <div class="about">
       <p><strong>About Foodo:</strong></p>
       <p>Foodo brings your favorite meals straight to your doorstep — fast, fresh, and full of flavor. We connect you with the best local restaurants, exciting new cuisines, and daily deals that fit every craving and budget.</p>
     </div>
+  </section>
 
+  <footer id="footer">
     <p>© 2025 Foodo. All rights reserved.</p>
   </footer>
 
