@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodo - Cart</title>
+  <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body>
+
+<header id="header">
+  <nav id="navbar">
+    <ul class="menu">
+      <li><a href="./index.html" class="nav-item">Home</a></li>
+      <li><a href="./order in app.html" class="nav-item">Order in app</a></li>
+      <li><a href="#" class="nav-item">Veg mode</a></li>
+      <li><a href="#" class="nav-item">Track your order</a></li>
+      <li><a href="./cart.html" class="nav-item active">Cart</a></li>
+    </ul>
+
+    <div class="logo">
+      <img src="./download.png" alt="Foodo brand logo" class="logo-img">
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="cart-container">
+    <h1>Your Cart</h1>
+
+    <div class="cart-grid">
+
+      <div class="cart-items">
+
+        <div class="cart-item">
+          <img src="./dish1.jpg" class="cart-img" alt="">
+          <div class="cart-info">
+            <h3>Paneer Tikka</h3>
+            <p>Smoky grilled paneer with spices</p>
+            <div class="item-row">
+              <input type="number" value="1" min="1" class="qty">
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+          <h4 class="price">₹249</h4>
+        </div>
+
+        <div class="cart-item">
+          <img src="./dish2.jpg" class="cart-img" alt="">
+          <div class="cart-info">
+            <h3>Cheese Pizza</h3>
+            <p>Thin crust with extra cheese</p>
+            <div class="item-row">
+              <input type="number" value="2" min="1" class="qty">
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+          <h4 class="price">₹399</h4>
+        </div>
+
+        <div class="cart-item">
+          <img src="./dish3.jpg" class="cart-img" alt="">
+          <div class="cart-info">
+            <h3>Cold Coffee</h3>
+            <p>Iced coffee with cream</p>
+            <div class="item-row">
+              <input type="number" value="1" min="1" class="qty">
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+          <h4 class="price">₹129</h4>
+        </div>
+
+      </div>
+
+      <aside class="summary">
+        <h2>Order Summary</h2>
+
+        <div class="summary-row">
+          <span>Items total</span>
+          <span>₹777</span>
+        </div>
+
+        <div class="summary-row">
+          <span>Delivery</span>
+          <span>₹30</span>
+        </div>
+
+        <div class="summary-row">
+          <span>Discount</span>
+          <span>-₹50</span>
+        </div>
+
+        <div class="summary-row total">
+          <span>Total</span>
+          <span>₹757</span>
+        </div>
+
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </aside>
+
+    </div>
+
+    <section class="recommended">
+      <h2>Recommended for you</h2>
+
+      <div class="rec-grid">
+
+        <article class="rec-card">
+          <img src="./dish4.jpg" alt="">
+          <h4>Masala Dosa</h4>
+          <p>From ₹99</p>
+        </article>
+
+        <article class="rec-card">
+          <img src="./dish5.jpg" alt="">
+          <h4>Momos</h4>
+          <p>From ₹129</p>
+        </article>
+
+        <article class="rec-card">
+          <img src="./dish6.jpg" alt="">
+          <h4>French Fries</h4>
+          <p>From ₹69</p>
+        </article>
+
+        <article class="rec-card">
+          <img src="./dish7.jpg" alt="">
+          <h4>Gulab Jamun</h4>
+          <p>From ₹49</p>
+        </article>
+
+      </div>
+
+    </section>
+  </section>
+
+</main>
+
+<footer id="footer">
+  <p>© 2025 Foodo. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
