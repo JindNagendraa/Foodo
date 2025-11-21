@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Track Your Order</title>
+  <link rel="stylesheet" href="./track.css">
+</head>
+
+<body>
+
+<header id="header">
+  <nav id="navbar">
+    <ul class="menu">
+      <li><a href="./index.html" class="nav-item">Home</a></li>
+      <li><a href="./order in app.html" class="nav-item">Order in app</a></li>
+      <li><a href="./veg.html" class="nav-item">Veg mode</a></li>
+      <li><a href="./track.html" class="nav-item active">Track your order</a></li>
+      <li><a href="./cart.html" class="nav-item">Cart</a></li>
+    </ul>
+    <div class="logo">
+      <img src="./download.png" alt="Foodo brand logo" class="logo-img">
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section>
+  <h1>Track Your Order</h1>
+  <p>Enter your Order ID or phone number to check the live status.</p>
+
+  <form>
+    <label>Order ID</label><br>
+    <input type="text" placeholder="Enter Order ID"><br><br>
+
+    <label>Phone Number (optional)</label><br>
+    <input type="tel" placeholder="Enter phone number"><br><br>
+
+    <button type="submit">Track Order</button>
+  </form>
+</section>
+
+<section>
+  <h2>Live Order Status</h2>
+
+  <p><strong>Status:</strong> Out for delivery</p>
+  <p><strong>Estimated Time:</strong> 12 minutes</p>
+
+  <h3>Order Steps</h3>
+  <ol>
+    <li>Order Confirmed</li>
+    <li>Preparing</li>
+    <li>Picked by Rider</li>
+    <li>Near Your Location</li>
+    <li>Delivered</li>
+  </ol>
+
+  <h3>Rider Details</h3>
+  <img src="./track images/download.jpeg" alt="Rider" width="120">
+  <p>Name: Arjun Kumar</p>
+  <p>Vehicle: Bajaj Platina</p>
+  <p>Phone: 1234567890</p>
+  <a href="tel:1234567890">Call Rider</a>
+</section>
+
+<section>
+  <h2>Order Summary</h2>
+  <ul>
+    <li>Veg Thali * 1 — ₹180</li>
+    <li>Veg Momos * 1 — ₹110</li>
+    <li>Mango Lassi * 1 — ₹80</li>
+  </ul>
+  <p><strong>Total:</strong> ₹370</p>
+</section>
+
+<section>
+  <h2>Live Map Preview</h2>
+  <img src="https://stackfood.app/wp-content/uploads/2024/01/stackfood-delivery-solution-map.webp" width="40%">
+</section>
+
+<section>
+  <h2>Help & Support</h2>
+
+  <details>
+    <summary>How to track my order?</summary>
+    <p>Enter your order ID to show live tracking.</p>
+  </details>
+
+  <details>
+    <summary>Can I change my address?</summary>
+    <p>You can change it before the rider picks up your order.</p>
+  </details>
+
+  <details>
+    <summary>Order taking too long?</summary>
+    <p>Contact support or call the rider.</p>
+  </details>
+</section>
+
+</main>
+
+</body>
+</html>
